@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "Matt Spear",
+  "author": "",
   "scripts": {
     "dev-old": "nodemon src/index.ts",
     "dev": "tsx watch --clear-screen=false src/index.ts",
