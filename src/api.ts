@@ -11,7 +11,7 @@ app.use(express.text({ type: 'text/html' }));
 
 // Healthcheck endpoint
 app.get('/', (req, res) => {
-  res.status(200).send({ status: 'ok' });
+  res.status(200).send({ status: 'okyo!' });
 });
 
 const api = express.Router();
