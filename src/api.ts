@@ -9,16 +9,16 @@ app.use(express.json());
 app.use(express.raw({ type: 'application/vnd.custom-type' }));
 app.use(express.text({ type: 'text/html' }));
 
-// Healthcheck endpoint
+// // Healthcheck endpoint
 app.get('/', (req, res) => {
-  res.status(200).send({ status: 'okyo!' });
+  res.status(200).send({ status: 'ok' });
 });
 
-const api = express.Router();
+// const api = express.Router();
 
-api.get('/hello', (req, res) => {
-  res.status(200).send({ message: 'hello world mr man!' });
-});
+// api.get('/hello', (req, res) => {
+//   res.status(200).send({ message: 'hello world mr man!' });
+// });
 
-// Version the api
-app.use('/api/v1', api);
+// // Version the api
+// app.use('/api/v1', api);
