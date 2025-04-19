@@ -11,7 +11,7 @@ import { WebSocketServer, WebSocket } from 'ws';
 const port = process.env.PORT || 3333;
 
 const s = app.listen(port, () =>
-  console.log(`Listening on http://localhost:${port}`)
+  console.log(`Listening on http://localhost:${port}...`)
 );
 
 const wss = new WebSocketServer({ noServer: true });
